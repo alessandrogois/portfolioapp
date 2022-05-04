@@ -29,7 +29,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View>
       {data.map((item) => {
-        return <ButtonText name={item.name} path={item.path} />;
+        return <ButtonText name={item.name} key={item.name} path={item.path} />;
       })}
     </View>
   );

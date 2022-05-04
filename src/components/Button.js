@@ -16,12 +16,14 @@ export const ButtonText = (props) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: 32,
+    textAlign: "center",
   },
 
   botao: {
     backgroundColor: "purple",
     padding: 10,
     borderRadius: 6,
+    margin: 30,
   },
 });
 export const Names = () => {
